@@ -1,7 +1,7 @@
 /* Website template by freewebsitetemplates.com */
 body {
 	background: url(../images/bg-body.jpg) repeat center top;
-	color: #d5b084;
+	color: #1919ff;
 	font-family: 'open_sansregular';
 	font-size: 12px;
 	margin: 0;
@@ -39,10 +39,10 @@ p {
 	line-height: 20px;
 }
 p a {
-	color: #d5af87;
+	color: #1919ff;
 }
 p a:hover {
-	color: #bfcb75;
+	color: #1919ff;
 }
 #page {
 	background: url(../images/bg-page.png) repeat;
