@@ -1,0 +1,70 @@
+<div>
+    <form name="form2" class="form-style-9 check-element animate-show-hide" id="upright" >
+        <ul class="form-style-1">
+            <li>
+                <label> Source code Folder:  </label>
+                <input type = "file" file-model = "myFile" accept="application/x-zip-compressed"/>
+            </li>
+            <li>
+                <button ng-click = "uploadFile()">Upload</button>
+            </li>
+            <li>
+                <br /> <img ng-src="data:image/JPEG;base64,{{umlimg}}"  width="600" height="600">
+            </li>
+        </ul>
+    </form>
+
+    <form name="form1" class="form-style-9 check-element animate-show-hide" ng-show="graderChecked" id="upleft">
+        <ul class="form-style-1">
+        <img src="../images/suraj 2.jpeg" alt="Image" style="width: 100px; height: 120px">
+            <li>
+                <label ng-model="msg"> <span class="required"></span>{{msg}}</label>
+            </li>
+            <li>
+                <label>Tenant Id: TA-2 </label>
+            </li>
+            <li>
+                <label>Student Name: Foram Mehta</label>
+            </li>
+            <li >
+                <label>
+                    Grade :
+                    <select ng-model="grade" class="field-select" id="grade" required=true>
+                        <option>4.0</option>
+                        <option>4.0</option>
+                        <option>3.67</option>
+                        <option>3.33</option>
+                        <option>3.0</option>
+                        <option>2.67</option>
+                        <option>2.33</option>
+                        <option>2.0</option>
+                        <option>1.67</option>
+                        <option>1.33</option>
+                        <option>1.0</option>
+                    </select>
+                </label>
+            </li>
+            <li >
+                <label>
+                    Complete :
+                    <select ng-model="complete" class="field-select" id="complete" required=true>
+                        <option>Complete</option>
+                        <option>Not Complete</option>
+                    </select>
+                </label>
+            </li>
+            <li>
+                <label>Comments: <span class="required">*</span></label>
+                <textarea required="true" class="field-long" ng-model="gradecomments"></textarea>
+
+            </li>
+            <li>
+                <button style="width: 30%" ng-click = "submitGrades()">Submit </button>
+            </li>
+
+            <li>
+                <label ng-model="msg"></label>
+            </li>
+        </ul>
+    </form>
+</div>
