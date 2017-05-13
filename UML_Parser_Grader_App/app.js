@@ -6,7 +6,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 const fileUpload = require('express-fileupload');
 var routes = require('./routes');
-var users = require('./routes/users');
 var grader = require('./routes/grader');
 
 

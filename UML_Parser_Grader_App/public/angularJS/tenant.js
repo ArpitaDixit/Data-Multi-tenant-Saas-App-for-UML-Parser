@@ -75,7 +75,7 @@ tenant.controller("tenant1_controller",['$scope','$http', 'fileUpload', function
         console.log('file is ' );
         console.dir(file);
 
-        var uploadUrl = "http://54.68.224.107:5000/api/upload";
+        var uploadUrl = "http://EasyUML-317984792.us-west-2.elb.amazonaws.com/tenant1";
         fileUpload.uploadFileToUrl(file, uploadUrl, function(data){
             console.log("callback from upload");
             console.log(data);
@@ -122,7 +122,7 @@ tenant.controller("tenant2_controller",['$scope','$http', 'fileUpload', function
         console.log('file is ' );
         console.dir(file);
 
-        var uploadUrl = "http://34.208.148.52:5000/api/upload";
+        var uploadUrl = "http://EasyUML-317984792.us-west-2.elb.amazonaws.com/tenant2";
         fileUpload.uploadFileToUrl(file, uploadUrl, function(data){
             console.log("callback from upload");
             console.log(data);
@@ -169,7 +169,7 @@ tenant.controller("tenant3_controller",['$scope','$http', 'fileUpload', function
         console.log('file is ' );
         console.dir(file);
 
-        var uploadUrl = "http://35.164.19.197:5000/api/upload";
+        var uploadUrl = "http://EasyUML-317984792.us-west-2.elb.amazonaws.com/tenant3";
         fileUpload.uploadFileToUrl(file, uploadUrl, function(data){
             console.log("callback from upload");
             console.log(data);
@@ -216,7 +216,7 @@ tenant.controller("tenant4_controller",['$scope','$http', 'fileUpload', function
         console.log('file is ' );
         console.dir(file);
 
-        var uploadUrl = "http://34.223.209.223:5000/api/upload";
+        var uploadUrl = "http://EasyUML-317984792.us-west-2.elb.amazonaws.com/tenant4";
         fileUpload.uploadFileToUrl(file, uploadUrl, function(data){
             console.log("callback from upload");
             console.log(data);
