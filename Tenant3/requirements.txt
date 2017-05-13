@@ -1,5 +1,0 @@
-Below are requirements for this project :- 
-
-1. Graphwiz software (essential) .use :-  sudo apt-get install graphviz
-2. Java 1.8 (essential)
-
